@@ -1,0 +1,7 @@
+.Footer {
+    border: 1px solid rgb(61, 61, 61);
+    background: #ffa340;
+    padding: 10px;
+    margin: 5px;
+    grid-area: f;
+}

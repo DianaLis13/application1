@@ -1,0 +1,25 @@
+.Sidebar {
+    border: 1px solid rgb(61, 61, 61);
+    margin: 5px;
+    grid-area: s;
+    background: #866fd7;
+}
+
+.Sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.Sidebar ul a{
+    display: flex;
+    padding: 25px 0;
+    justify-content: center;
+    
+ }
+
+ .Sidebar .active, .Sidebar ul a:hover{
+    background: #1e0771;
+    color: #fff;
+ }
